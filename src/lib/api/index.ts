@@ -5,13 +5,6 @@ import { IJITData, IJITResult } from './queries';
 
 // const aggThrottle = pLimit(1);
 const joinThrottle = pLimit(8);
-
-// TLN
-// const KEY_AUTHORIZATION=`eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJidXN5YnVzeS12My1tZW1iZXItc2Vzc2lvbiIsImlhdCI6MTYwNDMzNjc3OSwic3ViIjoiNTc1Mjk1MCJ9.i6yZlmHit8nOIy-kw4pce82uneJpOkAs2N8Sz94nu6w`;
-
-// CE
-// const KEY_AUTHORIZATION = `eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJidXN5YnVzeS12My1tZW1iZXItc2Vzc2lvbiIsImlhdCI6MTYwNDQyNzI2Mywic3ViIjoiNTc1NTQzOSJ9.ckoIjU9Ys9iUXRhaAR0f87BXy0BBRjL2Dv960rlfwUk`;
-
 // beta
 const KEY_AUTHORIZATION = `eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJidXN5YnVzeS12My1tZW1iZXItc2Vzc2lvbiIsImlhdCI6MTYxNjcxMjQyMywic3ViIjoiNDQwNjY3In0.d8dqYd0Y6bfFg08l4EKdvJnf0dQffxK8VQiVcEou32o`;
 
