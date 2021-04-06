@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  a {
+    @apply text-blue-500;
+    cursor: pointer;
+
+    &:hover {
+      @apply text-blue-600;
+    }
+
+  }
+}
+
+@tailwind utilities;
